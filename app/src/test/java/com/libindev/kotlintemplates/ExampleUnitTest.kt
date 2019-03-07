@@ -1,4 +1,4 @@
-package com.cloudmesoft.kotlintemplates
+package com.libindev.kotlintemplates
 
 import org.junit.Test
 
