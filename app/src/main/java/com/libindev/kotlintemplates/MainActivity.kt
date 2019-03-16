@@ -53,13 +53,15 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-
-
         student.let {
             it._address="new address"
         }
 
+
+
         Toast.makeText(this@MainActivity,student._address,Toast.LENGTH_SHORT).show()
+
+
 
     }
 }
