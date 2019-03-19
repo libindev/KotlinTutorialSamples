@@ -42,24 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         val fullName = student.getFullName { s: String, s2: String -> s.capitalize() + " " + s2.capitalize()} //higher function call
 
-       student.apply { //apply
-         this._address="Grace Villa"
-         this._ph="1254563236"
-       }
-        student.also {
 
-        }
-        student.run {
-
-        }
-
-        student.let {
-            it._address="new address"
-        }
-
-
-
-        Toast.makeText(this@MainActivity,student._address,Toast.LENGTH_SHORT).show()
 
 
 
